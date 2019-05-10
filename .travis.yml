@@ -1,6 +1,5 @@
 rvm:
   - 2.4.4
-  - 2.6.3
   - ruby-head
 gemfile:
   - gemfiles/Gemfile.hanami-1.3.x
@@ -10,5 +9,6 @@ notifications:
     - marcelo.jacobus@gmail.com
 matrix:
   allow_failures:
-    - rvm: ruby-head
-
+    - rvm:
+      - ruby-head
+      - 2.6.3
